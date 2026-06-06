@@ -37,22 +37,6 @@ The notebook is the complete deliverable — code and the written report (markdo
 - **§D — Extensions:** a Brigo–Mercurio **CIR++** deterministic shift (fully backtested out-of-sample) and a **jump-diffusion** short rate (stress-curve simulation).
 - **§E — Critical analysis** and **§6 — Key Questions**, each answered explicitly.
 
-## How to run
-
-**Option 1 — view it (no run needed).** GitHub renders the notebook with all plots and metrics already visible.
-
-**Option 2 — Open in Colab (badge above):** click the badge, then in the **§0.1** cell set
-`GITHUB_RAW_BASE = "https://raw.githubusercontent.com/USERNAME/REPONAME/main/data"`
-and choose **Runtime → Run all**. The notebook downloads the three CSVs from this repo automatically.
-
-**Option 3 — clone and run locally / in Jupyter:**
-```bash
-git clone https://github.com/USERNAME/REPONAME.git
-cd REPONAME
-jupyter notebook CIR_Yield_Curve_Project.ipynb   # then Run all
-```
-The data files in `data/` are discovered automatically.
-
 ## Key finding
 
 The single most important result is a *negative* one: adding fitted complexity (the CIR++ shift) improves the **in-sample** fit (0.9127) but **degrades out-of-sample** performance (0.8127) because it bakes in a training-era rate regime. Under the single-3M-input constraint, the parsimonious base model generalises better — a direct, data-driven answer to the project's "does the extension improve or overfit?" question.

@@ -3,11 +3,9 @@
 
 **Finance Club, IIT Roorkee — Open Projects 2026**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPONAME/blob/main/CIR_Yield_Curve_Project.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PiyushKumarMaurya123/cir-yield-curve/blob/main/CIR_Yield_Curve_Project.ipynb)
 
-> **Replace `USERNAME/REPONAME` in the badge URL above with your own GitHub username and repository name** so the "Open in Colab" button works.
 
----
 
 ## Result
 
